@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import '../screens/webview_screen.dart';
 import '../theme.dart';
 
-const String kPrivacyUrl = 'https://amazyzone.store/privacy-policy.html';
-const String kSupportUrl = 'https://amazyzone.store/support.html';
+const String kPrivacyUrl = 'https://amazyzoone.com/privacy-policy';
+const String kSupportUrl = 'https://amazyzoone.com/support';
 
 /// Settings sheet that slides up from the bottom. Hosts RTP info plus links
 /// to the privacy policy and support site opened in a native WebView.
