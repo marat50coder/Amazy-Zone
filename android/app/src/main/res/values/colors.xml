@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Deep warm backdrop that matches the orange highlights of the icon
+         artwork, so the shape mask reads as a frame around the illustration. -->
+    <color name="launch_bg">#121014</color>
+    <color name="launch_sky">#0A0A0C</color>
+</resources>

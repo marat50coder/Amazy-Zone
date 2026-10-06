@@ -1,0 +1,35 @@
+name: amazy_zone
+description: "Amazy Zone slot game"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  webview_flutter: ^4.10.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.1
+
+flutter_launcher_icons:
+  # Only the legacy pre-API-26 mipmaps are generated here. The adaptive icon
+  # in mipmap-anydpi-v26/ic_launcher.xml is hand-written and references
+  # @drawable/ic_launcher_art directly, so we deliberately omit the
+  # adaptive_icon_* keys to avoid overwriting it on the next run.
+  android: true
+  ios: false
+  image_path: "assets/Amazy_Zone_additional_assets/Icon.webp"
+  min_sdk_android: 23
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/Amazy_Zone_additional_assets/
+    - assets/Amazy_Zone_gameplay_assets/
